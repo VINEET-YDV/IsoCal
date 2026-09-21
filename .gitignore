@@ -1,0 +1,23 @@
+# data & checkpoints (too large for git; download/train separately, see README)
+data/
+checkpoints/
+*.pt
+*.pth
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# outputs
+*.png
+!figures/*.png
+results/*.csv
+!results/cgt_tta_results_cifar10.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
